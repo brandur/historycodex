@@ -2,7 +2,7 @@ doctype 5
 
 html lang='en'
   head
-    title= @title ? @title : "brandur.org"
+    title= @title ? @title : "Timeline"
 
     meta content='text/html; charset=utf-8' http-equiv='Content-Type'
 
@@ -11,9 +11,12 @@ html lang='en'
     link href="/assets/#{Codex::Config.release}/app.css" media="screen" rel="stylesheet" type="text/css"
     script src="/assets/#{Codex::Config.release}/app.js" type="text/javascript"
 
+    link href="//fonts.googleapis.com/css?family=Raleway:100" rel="stylesheet" type="text/css"
+
     / Enable HTML5 styling for the bane of the Internet
     /[ if lt IE 9 ]
       script src="//html5shim.googlecode.com/svn/trunk/html5.js"
 
   body
     h1 Timeline
+    canvas height="400" width="900"
