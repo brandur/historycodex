@@ -1,0 +1,13 @@
+source "https://rubygems.org"
+
+gem "coffee-script"
+gem "multi_json"
+gem "puma"
+gem "rack"
+gem "sass"
+gem "sinatra"
+gem "sinatra-router"
+gem "slim"
+gem "sprockets"
+gem "uglifier"
+gem "yui-compressor"
